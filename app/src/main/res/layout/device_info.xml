@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginRight="12dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="14dp">
+
+        <TextView
+            android:id="@+id/device_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center_vertical"
+            style="@style/TitleFontColor"
+            android:text="@string/device_info"/>
+
+        <!-- Brand -->
+        <TextView
+            android:id="@+id/brand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/device_info"
+            style="@style/FontColor"
+            android:text="@string/brand"/>
+
+        <TextView
+            android:id="@+id/brand_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@id/brand"
+            style="@style/FontColor"
+            android:text="@string/blank"/>
+
+        <!-- Model -->
+        <TextView
+            android:id="@+id/model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/brand"
+            style="@style/FontColor"
+            android:text="@string/model"/>
+
+        <TextView
+            android:id="@+id/model_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@id/model"
+            style="@style/FontColor"
+            android:text="@string/blank"/>
+
+        <!-- Product -->
+        <TextView
+            android:id="@+id/product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/model"
+            style="@style/FontColor"
+            android:text="@string/product"/>
+
+        <TextView
+            android:id="@+id/product_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@id/product"
+            style="@style/FontColor"
+            android:text="@string/blank"/>
+
+        <!-- Build -->
+        <TextView
+            android:id="@+id/build"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/product"
+            style="@style/FontColor"
+            android:text="@string/build"/>
+
+        <TextView
+            android:id="@+id/build_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@id/build"
+            style="@style/FontColor"
+            android:text="@string/blank"/>
+
+        <!-- SDK Level -->
+        <TextView
+            android:id="@+id/sdk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/build"
+            style="@style/FontColor"
+            android:text="@string/sdk"/>
+
+        <TextView
+            android:id="@+id/sdk_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@id/sdk"
+            style="@style/FontColor"
+            android:text="@string/blank"/>
+
+        <!-- WebView Version -->
+        <TextView
+            android:id="@+id/webView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/sdk"
+            style="@style/FontColor"
+            android:text="@string/web_view"/>
+
+        <TextView
+            android:id="@+id/webView_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@id/webView"
+            style="@style/FontColor"
+            android:text="@string/blank"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

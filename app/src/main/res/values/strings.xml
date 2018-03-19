@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DRM Info</string>
+
+    <string name="blank"></string>
+
+    <string name="device_info">Device Information</string>
+    <string name="brand">Brand</string>
+    <string name="model">Model</string>
+    <string name="product">Product</string>
+    <string name="build">Build</string>
+    <string name="sdk">SDK Level</string>
+    <string name="web_view">WebView Version</string>
+
+    <string name="cenc_clearkey">CENC ClearKey</string>
+    <string name="description">Description</string>
+    <string name="version">Version</string>
+</resources>

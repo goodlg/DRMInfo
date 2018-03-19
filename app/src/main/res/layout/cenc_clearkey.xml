@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginRight="12dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="14dp">
+
+        <TextView
+            android:id="@+id/cenc_clearkey_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center_vertical"
+            style="@style/TitleFontColor"
+            android:text="@string/cenc_clearkey"/>
+
+        <!-- CENC ClearKey -->
+        <TextView
+            android:id="@+id/cenc_clearkey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/cenc_clearkey_title"
+            style="@style/FontColor"
+            android:text="@string/cenc_clearkey"/>
+
+        <TextView
+            android:id="@+id/cenc_clearkey_support"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@id/cenc_clearkey"
+            style="@style/FontColor"
+            android:text="@string/blank"/>
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/cenc_clearkey"
+            style="@style/FontColor"
+            android:text="@string/description"/>
+
+        <TextView
+            android:id="@+id/description_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@id/description"
+            style="@style/FontColor"
+            android:text="@string/blank"/>
+
+        <!-- Version -->
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/description"
+            style="@style/FontColor"
+            android:text="@string/version"/>
+
+        <TextView
+            android:id="@+id/version_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@id/version"
+            style="@style/FontColor"
+            android:text="@string/blank"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
